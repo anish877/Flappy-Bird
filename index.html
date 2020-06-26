@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Flappy Bird</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/matter.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDt_VjiRywLZc1XDrVR5gEChLHLkowGXtQ",
+    authDomain: "hurdle-game-4ecf0.firebaseapp.com",
+    databaseURL: "https://hurdle-game-4ecf0.firebaseio.com",
+    projectId: "hurdle-game-4ecf0",
+    storageBucket: "hurdle-game-4ecf0.appspot.com",
+    messagingSenderId: "836674446818",
+    appId: "1:836674446818:web:c95b84ef05bd41c8c405bb"
+  };
+  // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Barrier.js"></script>
+    <script src="js/Bird.js"></script>
+    <script src="js/Menu.js"></script>
+    <script src="js/PlaySingle.js"></script>
+    <script src="js/matter.js"></script>
+    <script src="js/Ground.js"></script>
+    <script src="js/Pole.js"></script>
+    <script src="js/Login.js"></script>
+    <script src="js/SinglePlayer.js"></script>
+    <script src="js/Particles.js"></script>
+    <script src="js/Heart.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
